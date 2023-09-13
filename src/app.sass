@@ -121,22 +121,38 @@ body
     font-weight: 800
     height: fit-content
     vertical-align: middle
-    font-size: 0.8rem
+    border: none
+    font-size: 0.9rem
     font-family: SpaceGrotesk
     padding: 0.6rem 2rem
 
     img
         margin-left: 0.5rem
 
+.loading-spinner
+    position: fixed
+    z-index: 2000
+    top: 25%
+    left: 50%
+
 nav
     display: flex
     justify-content: space-between
-    margin: 2rem 20rem
+    position: fixed
+    left: 50%
+    transform: translate(-50%, 0)
+    width: 50vw
+    margin: 1.5rem 0
+    z-index: 1000
     animation: 1s ease-out 0s 1 slideInFromTop
     border-radius: 1rem
     border: 1px solid rgba(white, 0.2)
     padding: 0.5rem 1rem
     background: #090909
+    box-shadow: 2px 2px 60px 2px rgba(white, 0.1)
+    backdrop-filter: blur(20px)
+    background: linear-gradient(rgba(209, 209, 209, 0.15) 0%, rgba(102, 102, 102, 0.05) 100%)
+    box-shadow: rgba(0, 0, 0, 0.11) 0px 0.636953px 0.636953px -0.9375px, rgba(0, 0, 0, 0.1) 0px 1.9316px 1.9316px -1.875px, rgba(0, 0, 0, 0.09) 0px 5.10612px 5.10612px -2.8125px, rgba(0, 0, 0, 0.04) 0px 16px 16px -3.75px
 
     .brand
         margin-right: 4rem
@@ -158,6 +174,7 @@ nav
         gap: 3rem
 
 .hero
+    padding-top: 5rem
     margin-left: 3rem
     display: grid
     grid-template-columns: 3fr 2fr
@@ -270,9 +287,6 @@ nav
 
     button
         margin-right: 1.5rem
-
-    span
-        text-shadow: 0 0 50px #8F00FF
 
 footer
     display: flex
