@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Defndr/static/css/main.ce2bc377.css",
+    "main.css": "/Defndr/static/css/main.a5bc8f45.css",
     "main.js": "/Defndr/static/js/main.d27eb200.js",
     "static/media/qrcode.png": "/Defndr/static/media/qrcode.c3b861562a018b1a7bbb.png",
     "static/media/SpaceGrotesk-VariableFont_wght.ttf": "/Defndr/static/media/SpaceGrotesk-VariableFont_wght.1036357b9651eff7d3dd.ttf",
@@ -26,11 +26,11 @@
     "index.html": "/Defndr/index.html",
     "static/media/arrow.svg": "/Defndr/static/media/arrow.dab6e0d726c92b3bd7c93b0eb8f0d747.svg",
     "static/media/star.svg": "/Defndr/static/media/star.b3476f4d09de21d545f221f5a6b236de.svg",
-    "main.ce2bc377.css.map": "/Defndr/static/css/main.ce2bc377.css.map",
+    "main.a5bc8f45.css.map": "/Defndr/static/css/main.a5bc8f45.css.map",
     "main.d27eb200.js.map": "/Defndr/static/js/main.d27eb200.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce2bc377.css",
+    "static/css/main.a5bc8f45.css",
     "static/js/main.d27eb200.js"
   ]
 }
